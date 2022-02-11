@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(27, 10, 41);
+}
+
+
+
+.startPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.startPage h1{
+    font-family: 'Righteous', cursive;
+    color: rgb(226, 252, 253);
+    font-size: 5em;    
+}
+
+.startInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.nameInput{
+    font-size: 5vh;
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border: none;
+    height: 7vh;
+    width: 20rem;
+    background-color: rgb(255, 255, 255) ;
+    text-align: center;
+    margin: 5vh;
+}
+
+.startBtn{
+    border-radius: 1rem;
+    border: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgb(129, 215, 255);
+    font-size: 5vh;
+    width: auto;
+    height: 8vh;
+    margin: 0;
+}
+
+.startBtn:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.startBtn:active{
+    transform: scale(0.9);
+    transition-duration: 900ms;
+}
+
+
+
+.question{
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.question h1{
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+    color: aliceblue;
+}
+
+.opBtn{
+    border: none;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    width: 30rem;
+    padding: 1rem;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.opBtn:hover{
+    background-color: rgb(255, 255, 151);
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.opBtn:active{
+    transform: scale(1.02);
+    transition-delay: 0ms;
+}
+
+.nextBtn{
+    border: none;
+    border-radius: 1em;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1.5vw;
+    padding: 0.5rem;
+    height: auto;
+    width: 10rem;
+    margin: 2rem;
+    background-color: rgb(204, 228, 250);
+}
+
+.scoreCard{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.scoreCard h1{
+    color: aliceblue;
+    font-size: 7em;
+    font-family: 'Akaya Telivigala', cursive;
+    margin: 0;
+}
+
+.scoreCard h2{
+    color: aliceblue;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 3em;
+}
+
+.restartBtn{
+    border-radius: 1rem;
+    border: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgb(129, 215, 255);
+    font-size: 5vh;
+    width: auto;
+    height: 8vh;
+    margin: 0;
+}
+
+.restartBtn:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
